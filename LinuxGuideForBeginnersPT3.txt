@@ -1,0 +1,46 @@
+# Hello Everyone, welcome in the third part of the Linux terminal's command guide. Let's get started.
+
+
+ 
+
+
+# free -h: The command free -h is the command to check the RAM of your computer. example:
+	input:
+		free -h
+	output:
+		                total        used        free      shared  buff/cache   available
+		Mem:            numGi       numGi        numGi       numMi       numGi        numGi
+		Swap:          numGi          numB       numGi
+
+Now You will see the RAM of your computer on the terminal, exactly an output seems at that I showed You before in this hands on example. 
+
+ 
+
+
+# df -h: The command df -h is the command to check the disks of your computer. example:
+	input:
+		df -h
+	output:
+				Filesystem      Size  Used Avail Use% Mounted on
+		tmpfs           numG  numM  numG   num% /run
+		/dev/nvme0n1p2  numG  numG  numG  num% /
+		tmpfs            numG   numM   numG   num% /dev/shm
+		efivarfs        numK   numK   numK  num% /sys/firmware/efi/efivars
+		tmpfs           numM  numK  numM   num% /run/lock
+		tmpfs           numM   num    numM   num% /run/credentials/systemd-journald.service
+		tmpfs           numM   num    numM   num% /run/credentials/systemd-resolved.service
+		tmpfs            numG  numM   numG   num% /tmp		/dev/nvme0n1p1  numG   numM  nunG   num% /boot/efi
+		tmpfs           numG   numK   numG   num% /run/user/1000
+
+Now You will see the Disks of your computer on the terminal, exacltly an output seems at that I showed You before in this hands on example.
+
+
+
+
+# uname -r: The command uname -r is the command to check the your Linux kernel's version. example:
+	input:
+		uname -r
+	output:
+		6.17.0-6-generic
+Now You will see on the terminal your Linux kernel's version, the output in this hands on example is MY Linux kernel's version that in this case is the version 6.17.0-6.
+
