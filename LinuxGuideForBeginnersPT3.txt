@@ -1,5 +1,5 @@
-# Hello Everyone, welcome in the third part of the Linux terminal's command guide. Let's get started.
-
+# Rapid introduction.
+Hello Everyone, welcome in the third part of the Linux terminal's command guide. Let's get started.
 
  
 
